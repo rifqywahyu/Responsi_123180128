@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemkasus_tv_tanggal"
+        android:text="Tanggal Harian"
+        android:textSize="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="casual"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemkasus_tv_konfirmasi"
+            android:text="Konfirmasi"
+            android:textColor="@color/black"
+            android:fontFamily="casual"
+            android:textSize="18dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemkasus_tv_sembuh"
+            android:text="Sembuh"
+            android:textColor="@color/black"
+            android:fontFamily="casual"
+            android:textSize="18dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemkasus_tv_meninggal"
+            android:text="Meninggal"
+            android:textColor="@color/black"
+            android:fontFamily="casual"
+            android:textSize="18dp"></TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
